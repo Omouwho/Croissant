@@ -10,6 +10,10 @@ h1, p, h2, h3{
     text-align: center;
 }
 
+p{
+    font-size: 13px;
+}
+
 a{
     padding: 10px;
 }
@@ -32,4 +36,8 @@ img {
     background: linear-gradient(-20deg, rgb(233, 222, 250) 0%, rgb(251, 252, 219) 100%);;
     border-radius: 20px;
     padding-top: 5px;
+}
+
+.contactss{
+    font-size: 15px;
 }
