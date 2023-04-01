@@ -47,15 +47,9 @@ img {
 @media (max-width: 600px){
 
     .croissant-photo{
-    max-width: 100%;
+    max-width: 80%;
     height: 100%;
-    
     }
 
 }
 
-/* @media only screen and (max-width: 480px) {
-    img {
-        width: 100%;
-    }
-} */
