@@ -1,0 +1,11 @@
+body{
+    max-width: 800px;
+    background-color: skyblue;
+    margin: 0 auto;
+    align-items: center;
+    line-height: 1.5;
+}
+
+h1, p, h2, h3{
+    text-align: center;
+}
