@@ -18,13 +18,6 @@ a{
     padding: 10px;
 }
 
-img {
-    padding-top: 20px;
-    max-width: 100%;
-    width: 600px;
-    height: 350px;
-    border-radius: 10px;
-}
 
 .links{
     text-align: center;
@@ -42,14 +35,37 @@ img {
     font-size: 15px;
 }
 
+.croissant-photo{
+    padding-top: 20px;
+    max-width: 100%;
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+}
 
+@media (max-width: 600px) {
 
-@media (max-width: 600px){
-
-    .croissant-photo{
-    max-width: 80%;
-    height: 100%;
+    p{
+        font-size: 12px;
     }
 
+    h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    .croissant-photo {
+        display: block;
+        margin: 10px auto;
+        max-width: 90%;
+    }
 }
 
